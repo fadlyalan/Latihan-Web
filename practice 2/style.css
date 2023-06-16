@@ -1,0 +1,145 @@
+/* style.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    padding: 24px;
+    box-shadow: 0 3px 4px rgba(222, 49, 222, 0.5); /* Tambahkan ini untuk shadow ungu */
+  }
+  
+  .logo {
+    height:40px;
+  }
+  
+  .nav-links {
+    padding-right: 380px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(237, 40, 214);
+  }
+  
+  /* Navigation Bar Styling */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-brand img {
+    height: 40px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    align-items: center;
+    padding-left: 380px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #6f3662;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 36px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #6f3662;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    color: #6f3662;
+    margin-bottom: 20px;
+  }
+  
+  .latest-video iframe {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .things-to-do ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .things-to-do li {
+    margin-bottom: 10px;
+  }
+  
+  .spotify-playlist {
+    /* Gaya untuk menampilkan tautan ke Spotify playlist */
+  }
+  
+  .social-media-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .social-media-links li {
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #f1e9f6;
+    text-align: center;
+    padding: 20px;
+    color: #6f3662;
+  }
+  
